@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <title>Forest basins</title>
 <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-<link rel="stylesheet" type="text/css" href="./Qgis2threejs.css">
+<link rel="stylesheet" type="text/css" href="slope3d/Qgis2threejs.css">
 </head>
 <body>
 <div id="webgl"></div>
@@ -39,9 +39,9 @@ and uses the following library:
 <!-- footer -->
 <div id="footer"></div>
 
-<script src="./threejs/three.min.js"></script>
-<script src="./Qgis2threejs.js"></script>
-<script src="./threejs/OrbitControls.js"></script>
+<script src="slope3d/three.min.js"></script>
+<script src="slope3d/Qgis2threejs.js"></script>
+<script src="slope3d/OrbitControls.js"></script>
 <script>
 var option = Q3D.Options;
 
@@ -63,7 +63,7 @@ app.start();
 
 </script>
 <script src="./dat-gui/dat.gui.min.js"></script>
-<script src="./dat-gui_panel.js"></script>
+<script src="slope3d/dat-gui_panel.js"></script>
 <script>
 // initialize dat-gui panel
 Q3D.gui.init();
